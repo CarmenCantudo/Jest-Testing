@@ -15,3 +15,16 @@ A blue button should appear to click: _Make Public_,
 Another blue button should appear to click: _Open Browser_.
 
 In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+
+
+# Install Jest
+
+`npm init`
+
+`npm install --save-dev jest@26.6.3`
+
+
+# Test in terminal
+
+`npm test`
+
