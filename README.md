@@ -21,6 +21,10 @@ In Gitpod you have superuser security privileges by default. Therefore you do no
 
 `npm init`
 
+No need to answer anything except:
+
+test command: jest
+
 `npm install --save-dev jest@26.6.3`
 
 
@@ -28,3 +32,22 @@ In Gitpod you have superuser security privileges by default. Therefore you do no
 
 `npm test`
 
+
+## Problems
+
+If the terminal says: 
+
+  `> jest-testing@1.0.0 test`
+
+  `> echo "Error: no test specified" && exit 1`
+
+> Error: no test specified
+
+
+Add the following section to your package.json:
+
+`{
+  "scripts": {
+    "test": "jest"
+  }
+}`
